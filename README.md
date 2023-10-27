@@ -1,5 +1,7 @@
 # Geoproject-docker
 ### Getting Started
+**Description**
+This repository contains scripts and a Dockerfile for downloading and preprocessing Sentinel-2 satellite images. The provided Python scripts facilitate the extraction of specific bands, projection conversion, and creation of a Spatio-Temporal Asset Catalog (STAC) for the processed data.
 
 **Download Docker.**
 

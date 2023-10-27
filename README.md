@@ -47,7 +47,7 @@ docker build -t image1 .
 
 **3. Run the Docker container:**
 ```shell
-docker run -p 8888:8888 -e USERNAME= -e PASSWORD= -e VAR1= -e VAR2= -e VAR3= -e VAR4= -e 		 VAR5= -e VAR6= image1
+docker run -p 8888:8888 -e USERNAME= -e PASSWORD= -e VAR1= -e VAR2= -e VAR3= -e VAR4= -e VAR5= -e VAR6= image1
 ```
 
 Fill the environment variables (USERNAME, PASSWORD, VAR1, etc.) with your desired values.

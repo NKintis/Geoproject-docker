@@ -71,17 +71,14 @@ query = {
 }
 try:
 # Search for matching products
- print("Mpanei try")
  matches = hda_client.search(query)
 except Exception as e:
     # Handle the exception
-    print("Mpanei except")
     with open('/shared_files/error_message.txt', 'w') as error_file:
         error_file.write("ERROR")
     subprocess.run(['docker', 'stop', os.getenv('HOSTNAME')])
    
 # Download the matching products
-print("Bgike apo try")
 matches.download(download_dir="/sample_data/raw")
 
 # Get the list of downloaded files
